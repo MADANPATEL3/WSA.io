@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+
+
+/*navbar section*/
+
+#navbar {
+   flex-direction: column;
+}
+#navbar #logo {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#navbar ul li a{
+  font-size: 16px;
+  padding:3px 11px;
+  margin:2px 5px;
+}
+
+/*home Section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 3px;
+    padding: 2px 12px;
+
+}
+
+#home::before {
+    content: "";
+    background: url('../dogs.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+
+
+/*service section*/
+#services{
+    flex-direction: column;
+
+}
+
+/*About section*/
+.boxes{
+    flex-direction: column;
+    height: 500px;
+    
+}
+/*donate section*/
+.donateboxes{
+    flex-direction: column;
+    height:413px;
+}
+
+/*contact section*/
+
+/*social section*/
+
+#social{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
